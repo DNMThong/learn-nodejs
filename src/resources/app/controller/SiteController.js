@@ -1,9 +1,9 @@
 class SiteController {
   home(req, res) {
-    res.render('home');
+    res.render("home");
   }
   search(req, res) {
-    res.render('search');
+    res.render("search");
   }
 }
 
